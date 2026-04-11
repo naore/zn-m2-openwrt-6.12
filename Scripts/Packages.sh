@@ -78,7 +78,6 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 UPDATE_PACKAGE "filetransfer" "coolsnowwolf/luci/applications/luci-app-filetransfer" "master"
-UPDATE_PACKAGE "adguardhome" "coolsnowwolf/luci/applications/luci-app-adguardhome" "master"
 
 #更新软件包版本
 UPDATE_VERSION() {

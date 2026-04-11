@@ -109,3 +109,14 @@ if [ -d *"luci-app-netspeedtest"* ]; then
 
 	cd $PKG_PATH && echo "netspeedtest has been fixed!"
 fi
+
+# 3. 修復coolsnowwolf filetransfer依賴，確保 luci-lib-fs 被強制選中，否則會出現 "module 'luci.fs' not found"
+if [ -d *"luci-app-filetransfer"* ]; then
+	echo " "
+
+	cd ./luci-app-filetransfer/
+
+	sed -i 's/DEPENDS:=+luci-lib-ipkg/DEPENDS:=+luci-lib-ipkg +luci-lib-fs/g' ./Makefile
+
+	cd $PKG_PATH && echo "filetransfer has been fixed!"
+fi

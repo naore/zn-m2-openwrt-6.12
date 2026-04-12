@@ -77,7 +77,7 @@ UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
-UPDATE_PACKAGE "filetransfer" "jjm2473/openwrt-third/luci-app-filetransfer" "main" "" "luci-app-filetransfer"
+UPDATE_PACKAGE "luci-app-filetransfer" "jjm2473/openwrt-third" "main" "pkg"
 # UPDATE_PACKAGE "filetransfer" "naore/luci-app-filetransfer" "master" "" "luci-app-filetransfer"
 
 #更新软件包版本

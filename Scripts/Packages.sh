@@ -79,7 +79,8 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 UPDATE_PACKAGE "luci-app-filetransfer" "jjm2473/openwrt-third" "main" "pkg"
 UPDATE_PACKAGE "luci-lib-fs" "jjm2473/openwrt-third" "main" "pkg"
-# UPDATE_PACKAGE "luci-app-filetransfer" "coolsnowwolf/luci/applications/luci-app-filetransfer" "master" "pkg"
+# UPDATE_PACKAGE "luci-app-filetransfer" "coolsnowwolf/luci" "master" "pkg"
+# UPDATE_PACKAGE "luci-lib-fs" "coolsnowwolf/luci" "master" "pkg"
 # UPDATE_PACKAGE "filetransfer" "naore/luci-app-filetransfer" "master" "" "luci-app-filetransfer"
 
 #更新软件包版本

@@ -226,16 +226,16 @@ jobs:
             make clean -j$(nproc)
           fi
 
-      - name: List All IPKs
-        run: |
-          find ./wrt/bin/packages/ -name "*" | grep adguardhome
+#      - name: List All IPKs
+#        run: |
+#          find ./wrt/bin/packages/ -name "*" | grep adguardhome
 
-      - name: Upload specific IPK
-        uses: actions/upload-artifact@v4
-        with:
-          name: My-Plugin
-          # 這裡路徑要精確，或者用通配符
-          path: ./wrt/bin/packages/**/luci-app-adguardhome*
+#      - name: Upload specific IPK
+#        uses: actions/upload-artifact@v4
+#        with:
+#          name: My-Plugin
+#          # 這裡路徑要精確，或者用通配符
+#         path: ./wrt/bin/packages/**/luci-app-adguardhome*
 
       - name: Release Firmware
         uses: softprops/action-gh-release@master

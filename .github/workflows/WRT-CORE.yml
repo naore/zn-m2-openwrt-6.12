@@ -228,7 +228,7 @@ jobs:
 
       - name: List All IPKs
         run: |
-          find ./wrt/bin/packages/ -name "*.ipk" | grep adguardhome
+          find ./wrt/bin/packages/ -name "*" | grep adguardhome
 
       - name: Upload specific IPK
         uses: actions/upload-artifact@v4

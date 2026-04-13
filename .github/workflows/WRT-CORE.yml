@@ -225,6 +225,14 @@ jobs:
 
             make clean -j$(nproc)
           fi
+          
+      - name: Upload specific IPK
+        uses: actions/upload-artifact@v4
+        with:
+          name: My-Plugin
+          # 這裡路徑要精確，或者用通配符
+          path: ./wrt/bin/packages/*/luci/luci-app-adguardhome*.*pk
+
 
       - name: Release Firmware
         uses: softprops/action-gh-release@master

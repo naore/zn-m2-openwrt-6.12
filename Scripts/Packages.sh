@@ -77,6 +77,8 @@ UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
+UPDATE_PACKAGE "luci-app-adguardhome" "stevenjoezhang/luci-app-adguardhome" "dev"
+
 UPDATE_PACKAGE "luci-app-filetransfer" "jjm2473/openwrt-third" "main" "pkg"
 UPDATE_PACKAGE "luci-lib-fs" "jjm2473/openwrt-third" "main" "pkg"
 # UPDATE_PACKAGE "luci-app-filetransfer" "coolsnowwolf/luci" "master" "pkg"

@@ -183,6 +183,8 @@ jobs:
 
           make download -j$(nproc)
 
+          find . -maxdepth 3 -mindepth 1 -type d
+
       - name: Compile Firmware
         if: env.WRT_TEST != 'true'
         run: |

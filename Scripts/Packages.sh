@@ -79,10 +79,10 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 UPDATE_PACKAGE "luci-app-adguardhome" "stevenjoezhang/luci-app-adguardhome" "dev"
 
-#UPDATE_PACKAGE "luci-app-filetransfer" "jjm2473/openwrt-third" "main" "pkg"
-#UPDATE_PACKAGE "luci-lib-fs" "jjm2473/openwrt-third" "main" "pkg"
-UPDATE_PACKAGE "luci-app-filetransfer" "coolsnowwolf/luci" "master" "pkg"
-UPDATE_PACKAGE "luci-lib-fs" "coolsnowwolf/luci" "master" "pkg"
+UPDATE_PACKAGE "luci-app-filetransfer" "jjm2473/openwrt-third" "main" "pkg"
+UPDATE_PACKAGE "luci-lib-fs" "jjm2473/openwrt-third" "main" "pkg"
+#UPDATE_PACKAGE "luci-app-filetransfer" "coolsnowwolf/luci" "master" "pkg"
+#UPDATE_PACKAGE "luci-lib-fs" "coolsnowwolf/luci" "master" "pkg"
 
 #更新软件包版本
 UPDATE_VERSION() {
